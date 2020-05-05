@@ -4,15 +4,16 @@ import "./style.scss"
 new Vue({
   el: "#app",
   components: {
-    'movie-list': {
-      template: `<div id="movie-list>
+    "movie-list": {
+      template: `<div id="movie-list">
                     Movie list
                  </div>`
     },
-    'movie-filter': {
-      template: `<div id="movie-filter>
+    "movie-filter": {
+      template: `<div id="movie-filter">
                     Movie filter
                  </div>`
     }
   }
-});
+}
+);
